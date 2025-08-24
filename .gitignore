@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+
+venv/
+env/
+
+# FAISS index files
+faiss_index/
+
+# Local development settings
+.vscode/
+```
+
+3. **Create a `requirements.txt` file**
+````python
+// filepath: [requirements.txt](http://_vscodecontentref_/0)
+streamlit
+PyPDF2
+langchain
+langchain-google-genai
+google-generativeai
+faiss-cpu
+python-dotenv
